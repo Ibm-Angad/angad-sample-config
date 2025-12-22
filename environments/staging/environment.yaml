@@ -30,7 +30,7 @@ app:
     # Defaults to the min value if not set.
     max: 1
 
-    startupTimeout: 300
+    #startupTimeout: 300
     
   # Configure vCPU and indirectly memory resources for the application. 
   # The memory assigned to the application is directly proportional to the 
