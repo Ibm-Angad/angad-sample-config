@@ -28,7 +28,7 @@ app:
     
     # The maximum number of instances. Cannot be less than the min value. 
     # Defaults to the min value if not set.
-    max: 2
+    max: 1
 
     #startupTimeout: 300
     
