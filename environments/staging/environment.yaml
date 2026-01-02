@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: "245df855-ffde-4d64-8dad-5a7e622a9352"
+  version: "25de951f-e08c-4dee-a5d3-168e260c53e3"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
@@ -24,11 +24,11 @@ app:
     # high-availability support, set this value to at least 3. The service
     # spreads instances among different availability zones. 
     # Defaults to 1 if not set.
-    min: 2
+    min: 1
     
     # The maximum number of instances. Cannot be less than the min value. 
     # Defaults to the min value if not set.
-    max: 2
+    max: 1
 
     #startupTimeout: 300
     
